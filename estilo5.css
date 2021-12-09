@@ -1,0 +1,690 @@
+/* FONDO ÚTIL*/
+.papa{
+    position: absolute;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 1000px; 
+    height: 100%;
+}
+
+/* ENCABEZADO */
+.img_libreria{
+    position: absolute;
+    top:0px;
+    bottom:0px ;
+    width: 1000px;
+    height: 500px;
+    z-index: 0;
+
+}
+
+.cuadrado{
+    position: absolute;
+    width:500px;
+    height:200px;
+    top:130px;
+    left: 250px;
+    z-index: 1;
+    border: 5px solid #F6ECE1;  
+    opacity: 0.70;
+    margin: auto;
+    text-align: center;
+}
+
+#titulo_en_imagen{
+    position: absolute;
+    left: 50px;
+    top:-5px;
+    width: 400px;
+    height: 165px;
+    background-color: #F6ECE1;
+    text-align: center;
+    z-index: 3;
+    font-size: 30px;
+    color: black;
+
+}
+
+/* MENÚ */
+.menu{
+    position: absolute;
+    left: 440px;
+    top:472px;
+}
+
+.boton{
+  background-color: #9BC0CF;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.submenu{
+    position: absolute;
+    left: 105px;
+    top:540px;
+    background-color: #405561;
+    padding: 10px 10px;
+}
+
+.boton2{
+  background-color: #F6ECE1;
+  color: #405561;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*BILIOTECA*/
+
+/*FANTASIA*/
+.contenido_fantasia{
+    position: relative;
+    top:610px;
+    width: 1000px;
+    height: 750px;
+    background-color:#C5AC8E ;
+}
+
+
+.nombre_categorias{
+    text-align: center;
+    z-index: 3;
+    font-size: 25px;
+    color: #F6ECE1;
+    background-color:#405561 ;
+    padding: 15px 30px;
+    letter-spacing: 1.2px;
+}
+
+.libro1{
+    position: absolute;
+    width: 950px;
+    top: 80px;
+    background-color: #F6ECE1;
+    margin: 25px;
+}
+
+    #señor{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:0px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis1{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+
+.libro2{
+    position: absolute;
+    width: 950px;
+    top: 270px;
+    background-color: #F6ECE1;
+    margin: 25px;
+
+}
+
+    #harry{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:587px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis2{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+.libro3{
+    position: absolute;
+    width: 950px;
+    top: 538px;
+    background-color: #F6ECE1;
+    margin: 25px;
+
+}
+
+    #narnia{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:0px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis3{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+/*ROMANCE*/
+.contenido_romance{
+    position: relative;
+    top:610px;
+    width: 1000px;
+    height: 835px;
+    background-color:#C5AC8E ;
+}
+
+.libro4{
+    position: absolute;
+    width: 950px;
+    top: 80px;
+    background-color: #F6ECE1;
+    margin: 25px;
+
+
+}
+
+    #noah{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:0px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis4{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+
+.libro5{
+    position: absolute;
+    width: 950px;
+    top: 325px;
+    background-color: #F6ECE1;
+    margin: 25px;
+
+}
+
+    #cuento{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:455.5px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis5{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+.libro6{
+    position: absolute;
+    width: 950px;
+    top: 525px;
+    background-color: #F6ECE1;
+    margin: 25px;
+
+}
+
+    #fuera{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:0px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis6{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+/*SUSPENSE*/
+.contenido_suspense{
+    position: relative;
+    top:610px;
+    width: 1000px;
+    height: 840px;
+    background-color:#C5AC8E ;
+}
+
+.libro7{
+    position: absolute;
+    width: 950px;
+    top: 80px;
+    background-color: #F6ECE1;
+    margin: 25px;
+
+
+}
+
+    #resplandor{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:0px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis7{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+
+.libro8{
+    position: absolute;
+    width: 950px;
+    top: 355px;
+    background-color: #F6ECE1;
+    margin: 25px;
+
+}
+
+    #silencio{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:406.4px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis8{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+.libro9{
+    position: absolute;
+    width: 950px;
+    top: 550px;
+    background-color: #F6ECE1;
+    margin: 25px;
+
+}
+
+    #perdida{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:0px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis9{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+/*COCINA*/
+.contenido_cocina{
+    position: relative;
+    top:610px;
+    width: 1000px;
+    height: 920px;
+    background-color:#C5AC8E ;
+}
+
+.libro10{
+    position: absolute;
+    width: 950px;
+    top: 80px;
+    background-color: #F6ECE1;
+    margin: 25px;
+}
+
+    #madre{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:0px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis10{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+
+.libro11{
+    position: absolute;
+    width: 950px;
+    top: 300px;
+    background-color: #F6ECE1;
+    margin: 25px;
+
+}
+
+    #marquesa{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:475.5px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis11{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+.libro12{
+    position: absolute;
+    width: 950px;
+    top: 650px;
+    background-color: #F6ECE1;
+    margin: 25px;
+
+}
+
+    #cuchara{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:0px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis12{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+/*AUTOAYUDA*/
+.contenido_autoayuda{
+    position: relative;
+    top:610px;
+    width: 1000px;
+    height: 730px;
+    background-color:#C5AC8E ;
+}
+
+.libro13{
+    position: absolute;
+    width: 950px;
+    top: 80px;
+    background-color: #F6ECE1;
+    margin: 25px;
+}
+
+    #erroneas{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:0px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis13{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+
+.libro14{
+    position: absolute;
+    width: 950px;
+    top: 280px;
+    background-color: #F6ECE1;
+    margin: 25px;
+
+}
+
+    #mente{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:318.7px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis14{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+.libro15{
+    position: absolute;
+    width: 950px;
+    top: 510px;
+    background-color: #F6ECE1;
+    margin: 25px;
+
+}
+
+    #PNL{
+        position: absolute;
+        letter-spacing: 1px;
+        text-align: justify;
+        font-size: 25px;
+        left:0px;
+        top:-45px;
+        background-color: #405561;
+        padding: 10px 20px;
+        border: 2px solid #F6ECE1;
+        color:#F6ECE1;
+        letter-spacing: 1.2px;
+   }
+
+    #sinopsis15{
+        width: 
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #405561;
+        letter-spacing: 1.2px;
+        margin: 25px;
+        margin-top: 0px;
+
+    }
+
+/* PIE DE PÁGINA */
+
+.pie{
+    position: relative;
+    text-align: center;
+    top: 700px;
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: #9BC0CF;
+    width: 350px;
+    left:300px;
+}
+
+#hueco_final{
+    position: relative;
+    top: 75px;
+}

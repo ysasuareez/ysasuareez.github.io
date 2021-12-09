@@ -1,0 +1,338 @@
+/* FONDO WEB*/
+.imagen_fondo {
+    position: absolute;
+    opacity: 0.15;
+    width:100%;
+    height:100%;
+    top: 0px;
+    left:0px;
+    background-repeat: repeat;
+}
+
+
+/* FONDO ÚTIL*/
+.papa{
+    position: absolute;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 1000px; 
+    height: 100%;
+}
+
+
+/* ENCABEZADO */
+
+.img_libreria{
+    position: absolute;
+    top:0px;
+    bottom:0px ;
+    width: 1000px;
+    height: 500px;
+    z-index: 0;
+
+}
+
+.cuadrado{
+    position: absolute;
+    width:500px;
+    height:200px;
+    top:130px;
+    left: 250px;
+    z-index: 1;
+    border: 5px solid #F6ECE1;  
+    opacity: 0.70;
+    margin: auto;
+    text-align: center;
+}
+
+#titulo_en_imagen{
+    position: absolute;
+    left: 50px;
+    top:-5px;
+    width: 400px;
+    height: 165px;
+    background-color: #F6ECE1;
+    text-align: center;
+    z-index: 3;
+    font-size: 30px;
+    color: black;
+
+}
+
+
+/* MENÚ */
+.menu{
+    position: absolute;
+    left: 110px;
+    top:472px;
+}
+
+.boton{
+  background-color: #9BC0CF;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+
+
+/* CONOCENOS */
+.quienes{
+    position: absolute;
+    top:532px;
+    width: 900px;
+    margin-left: 50px;
+    z-index: 3;
+    color:#28363E;
+}
+
+    #somos{
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 30px;
+
+
+    }
+
+    #descrip{
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color: #F6ECE1;
+        letter-spacing: 1.2px;
+
+    }
+
+
+.porque{
+    position: relative;
+    top:-185px;
+    width: 900px;
+    margin-left: 50px;
+    font-size: 17px;
+    line-height: 25px;
+    z-index: 3;
+    color:#28363E;
+    letter-spacing: 1px;
+}
+
+    #nosotros{
+        text-align: center;
+        font-size: 30px;
+
+    }
+
+    #motivo{
+        text-align: center;
+        font-size: 17px;
+        color: #F6ECE1;
+        letter-spacing: 1.2px;
+    }
+
+     #pregunta{
+            text-align: center;
+            font-size: 25px;
+            color: #F6ECE1;
+            letter-spacing: 1.2px;
+    }
+
+
+        .primeradef{
+            position: absolute;
+            width: 425px;
+            left: -15px;
+            text-align: justify;
+            color: #28363E;
+            padding: 10px 15px;
+            letter-spacing: 1.2px;
+            background-color: #F6ECE1;
+        }
+            
+           
+
+            #def_rae{
+                font-size: 17px;
+            }
+
+
+
+        .segundadef{
+            position: absolute;
+            width: 425px;
+            left: 460px;
+            text-align: justify;
+            color: #28363E;
+            padding: 10px 15px;
+            letter-spacing: 1.2px;
+            background-color: #F6ECE1;
+        }
+
+            #def_lector{
+                font-size: 17px;
+
+            }
+
+        #y_tu{
+            position: absolute;
+            width: 900px;
+            top: 550px;
+            text-align: center;
+            font-size: 20px;
+            color: #F6ECE1;
+            letter-spacing: 1.2px;
+
+        }
+
+        /* DECORATIVOS */
+
+#decorativo1{
+    position: relative;
+    width: 650px;
+    height: 50px;
+    background-color: #C5AC8E;
+    top: 529px;
+    z-index: 2;
+}
+
+#decorativo1_1{
+    position: relative;
+    background-color: #405561 ;
+    width: 1000px;
+    height: 340px;
+    top: 482px;
+    z-index: 1;
+}
+
+#decorativo2{
+    position: relative;
+    width: 650px;
+    height: 50px;
+    left:350px;
+    background-color: #C5AC8E;
+    top: 492px;
+    z-index: 2;
+}
+
+#decorativo2_1{
+    position: relative;
+    background-color: #405561;
+    width: 1000px;
+    height: 610px;
+    top: 447px;
+    z-index: 1;
+}
+
+#decorativo3{
+    position: relative;
+    width: 700px;
+    height: 55px;
+    background-color: #405561;
+    top: 282px;
+    z-index: ;
+}
+
+
+/* HORARIO */
+#lecturatime{  
+    position: relative;
+    top:220px;
+    color: black;
+    text-align: center;
+    color:#FBEFE8;
+    font-size: 28px;
+    letter-spacing: 1.2px;
+}
+
+.fondo_horario{
+    position: relative;
+    top:222px;
+    width: 900px;
+    left: -10px;
+    margin-left: 50px;
+    font-size: 17px;
+    line-height: 25px;
+    z-index: 3;
+    color:#28363E;
+    letter-spacing: 1.2px;
+}
+
+#dia{
+    border: 1px solid #405561;
+    background-color: #C5AC8E;
+    color: #FBEFE8;
+    font-size: 25px;
+    padding: 15px 30px;
+
+}
+
+.hora{
+    border: 1px solid #405561;
+    background-color: #C5AC8E;
+    font-size: 15px;
+    color: #FBEFE8;
+    padding: 15px 30px;
+}
+
+.edad30{
+    font-size: 18px;
+    color: #405561;
+    padding: 15px 30px;
+    border: 1px solid #405561;
+    background-color: #F6ECE1;
+}
+
+.edad18{
+    font-size: 18px;
+    color: #405561;
+    padding: 15px 30px;  
+    border: 1px solid #405561;
+    background-color: #F6ECE1;
+}
+
+.edad10{
+    font-size: 18px;
+    color: #405561;
+    padding: 15px 30px;
+    border: 1px solid #405561;
+    background-color: #F6ECE1;
+}
+
+.edad5{
+    font-size: 18px;
+    color: #405561;
+    padding: 15px 30px;
+    border: 1px solid #405561;
+    background-color: #F6ECE1;
+}
+.none{
+    border: 1px solid #405561;
+    background-color: #F6ECE1;
+    color: #405561;
+
+}
+
+
+/* PIE DE PÁGINA */
+
+.pie{
+    position: relative;
+    text-align: center;
+    top: 300px;
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: #9BC0CF;
+    width: 350px;
+    left:300px;
+}
+
+#hueco_final{
+    position: relative;
+    top: 75px;
+}
